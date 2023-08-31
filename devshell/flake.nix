@@ -17,6 +17,7 @@
         seaborn
         jupyter
         plotly
+        # matplotlib.override { enableGtk3 = true; }
         matplotlib.override { enableQt = true; }
       ];
     in
@@ -33,14 +34,14 @@
           ];
 
           buildInputs = [
-            pkgs.qt5.qtwayland
+            # pkgs.qt5.qtwayland
           ];
 
           shellHook = ''
-            alias jnb='jupyter notebook --no-browser'
+            alias jnb='jupyter notebook'
           '';
 
-          QT_PLUGIN_PATH = with pkgs.qt5; "${qtbase}/${qtbase.qtPluginPrefix}";
+          # QT_PLUGIN_PATH = with pkgs.qt5; "${qtbase}/${qtbase.qtPluginPrefix}";
         };
       }
     );
