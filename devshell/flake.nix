@@ -31,6 +31,11 @@
           packages = [ 
             py
             pkgs.black
+            pkgs.texlive.combined.scheme-full
+            # pkgs.tectonic
+            # pkgs.texlab
+            pkgs.inkscape
+            pkgs.pandoc
           ];
 
           buildInputs = [
