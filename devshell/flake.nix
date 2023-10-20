@@ -13,6 +13,7 @@
         ipython
         numpy
         scipy
+        scikit-learn
         pandas
         seaborn
         jupyter
