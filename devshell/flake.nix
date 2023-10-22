@@ -11,13 +11,14 @@
       python_package = "python3";
       pypkgs = ps: with ps; [
         ipython
-        numpy
-        scipy
-        scikit-learn
-        pandas
-        seaborn
         jupyter
+        numpy
+        openpyxl
+        pandas
         plotly
+        scikit-learn
+        scipy
+        seaborn
         # matplotlib.override { enableGtk3 = true; }
         matplotlib.override { enableQt = true; }
       ];
