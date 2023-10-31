@@ -12,9 +12,13 @@
       pypkgs = ps: with ps; [
         ipython
         jupyter
+<<<<<<< HEAD
         numpy
         openpyxl
         pandas
+=======
+        pillow
+>>>>>>> 63c76b8 (Begin hw5)
         plotly
         scikit-learn
         scipy
