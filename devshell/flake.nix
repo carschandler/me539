@@ -10,15 +10,13 @@
     let
       python_package = "python3";
       pypkgs = ps: with ps; [
+        filterpy
         ipython
         jupyter
-<<<<<<< HEAD
         numpy
         openpyxl
         pandas
-=======
         pillow
->>>>>>> 63c76b8 (Begin hw5)
         plotly
         scikit-learn
         scipy
