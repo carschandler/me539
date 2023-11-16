@@ -18,6 +18,8 @@
         pandas
         pillow
         plotly
+        pytorch
+        gpytorch
         scikit-learn
         scipy
         seaborn
