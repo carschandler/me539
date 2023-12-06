@@ -18,6 +18,7 @@
         pandas
         pillow
         plotly
+        pyro-ppl
         pytorch
         gpytorch
         scikit-learn
