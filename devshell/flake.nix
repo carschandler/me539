@@ -11,6 +11,7 @@
       python_package = "python3";
       pypkgs = ps: with ps; [
         filterpy
+        graphviz
         ipython
         jupyter
         numpy
